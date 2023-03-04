@@ -6,4 +6,10 @@ const app = express();
 app.use(express.json());
 app.use(router);
 
+
+
+app.listen(3000, () => {
+    console.log("Aplicação de pé");
+})
+
 export { app };
